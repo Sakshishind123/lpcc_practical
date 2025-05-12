@@ -1,0 +1,5 @@
+C:/msys64/usr/bin/bash.exe -l
+
+flex pos_lex.l
+gcc lex.yy.c -o pos_lex -lfl
+./pos_lex
